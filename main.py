@@ -66,9 +66,9 @@ for page_num in range(1, 3):
 
 # Step 3: Save data to CSV
 df = pd.DataFrame(dataset)
-df.to_csv('plstestjob_data_selenium.csv', index=False)
+df.to_csv('freelancer_job_data_selenium.csv', index=False)
 
 # Close the WebDriver
 driver.quit()
 
-print("Scraping complete, data saved to job_data_selenium.csv")
+print("Scraping complete, data saved to freelancer_job_data_selenium.csv")

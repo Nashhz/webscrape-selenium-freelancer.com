@@ -1,3 +1,4 @@
+---
 # Web Scraping Freelancer.com using Selenium
 
 This project demonstrates how to scrape job listings from [Freelancer.com](https://www.freelancer.com/) using **Selenium**, a powerful web automation tool. The scraper gathers job titles, descriptions, and other relevant details from Freelancer job postings.

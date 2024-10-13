@@ -11,8 +11,8 @@ driver = webdriver.Chrome()
 # Initialize the dataset
 dataset = {"Title": [], "Description": [], "Skills": []}
 
-# Scrape the first 2 pages
-for page_num in range(1, 3):  # This will scrape pages 1 to 2
+# Scrape the number of pages (1, 3) = (page 1 until 2)
+for page_num in range(1, 3):  
     print(f"Scraping page {page_num}...")
 
     # Navigate to the correct URL for the current page
